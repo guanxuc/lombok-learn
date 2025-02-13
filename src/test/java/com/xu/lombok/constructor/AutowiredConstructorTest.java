@@ -1,6 +1,5 @@
 package com.xu.lombok.constructor;
 
-
 import com.xu.lombok.LombokApplication;
 import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.Test;
