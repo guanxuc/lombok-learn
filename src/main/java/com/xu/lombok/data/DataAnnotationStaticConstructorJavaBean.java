@@ -1,6 +1,7 @@
 package com.xu.lombok.data;
 
 import lombok.Data;
+import lombok.ToString;
 
 /**
  * @author xuguan
@@ -10,5 +11,6 @@ import lombok.Data;
 public class DataAnnotationStaticConstructorJavaBean {
     private String id;
     private String name;
+    @ToString.Exclude
     private String password;
 }
