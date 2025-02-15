@@ -1,5 +1,6 @@
 package com.xu.lombok.sneakythrows;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -9,7 +10,7 @@ import org.junit.jupiter.api.Test;
 public class ExceptionSneakyThrowsTest {
 
     @Test
-    public void file() {
-        ExceptionSneakyThrows.exception();
+    public void exception() {
+        Assertions.assertThrows(Exception.class, () -> ExceptionSneakyThrows.exception());
     }
 }

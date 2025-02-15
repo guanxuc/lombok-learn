@@ -10,7 +10,7 @@ public class ThrowableSneakyThrows {
 
     // catch Throwable
     @SneakyThrows
-    public static void exception() {
-        throw new Exception("exception");
+    public static void throwable() {
+        throw new Throwable("throwable");
     }
 }
